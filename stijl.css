@@ -105,22 +105,27 @@ nav a {
   padding-bottom: 1rem;
 }
 
-#toport {
+#toport, #toport2 {
   display: block;
   margin: auto;
   background-color: #EC9862;
   padding: 2rem;
   color: #533A7B;
   z-index: 1;
-  margin-top: 32vh;
+  margin-top: 15vh;
   margin-left: 15vw;
   margin-right: 15vw;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-#toport:hover {
+
+#toport:hover, #toport2:hover {
   background-color: white;
+}
+
+#toport2 {
+  margin-top: 2rem;
 }
 
 nav img {
